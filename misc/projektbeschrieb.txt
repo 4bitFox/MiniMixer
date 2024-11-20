@@ -1,11 +1,11 @@
-Autor:      HIER# "Tragen Sie hier ihren eigenen Namen ein", FHNW, HT Datum: 
-Datum:      HIER#
-Version:    HIER# "Ihre Versionsnummer eintragen" 
-Zweck:      HIER# "Tragen Sie den Zweck ihres Programmes hier ein"  
-                   Beispielzeile löschen: "Die ist die Projektvorlage für die Erstellung des MATLAB-Projektes mit dem Ziel, Messdaten zu lesen, filtern, zeitabhängige Daten darstellen und speichern"
-Dateiname   HIER# "Ihren Dateinamen eintragen" 
-Eingabe:    HIER# "Z.B. Tragen Sie hier die zeitlich abhängige Daten ein" 
-Ausgabe:    HIER# "Z.B. Tragen Sie hier die gefilterte Messdaten für die EXCEL-Datei ein"
+Autor:      Cvetko Fabian
+Datum:      2024-11-20
+Version:    alpha1
+Zweck:      Auslesen von Schiebern, 4-Positions-Schaltern und Tastern mit Hilfe eines Raspberry Pi Pico. Senden dieser Messdaten an einen Linux PC via USB.
+Dateien:    ../linux/main.py
+            ../linux/MiniMixer/__init__.py
+            ../linux/MiniMixer/init.py
+            ../pico/main.py
 
 Quellen:    HIER# "Geben Sie hier die Quellen ihrer Daten und Dateien ein"
 
