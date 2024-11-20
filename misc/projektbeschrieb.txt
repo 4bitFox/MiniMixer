@@ -1,0 +1,22 @@
+Autor:      HIER# "Tragen Sie hier ihren eigenen Namen ein", FHNW, HT Datum: 
+Datum:      HIER#
+Version:    HIER# "Ihre Versionsnummer eintragen" 
+Zweck:      HIER# "Tragen Sie den Zweck ihres Programmes hier ein"  
+                   Beispielzeile löschen: "Die ist die Projektvorlage für die Erstellung des MATLAB-Projektes mit dem Ziel, Messdaten zu lesen, filtern, zeitabhängige Daten darstellen und speichern"
+Dateiname   HIER# "Ihren Dateinamen eintragen" 
+Eingabe:    HIER# "Z.B. Tragen Sie hier die zeitlich abhängige Daten ein" 
+Ausgabe:    HIER# "Z.B. Tragen Sie hier die gefilterte Messdaten für die EXCEL-Datei ein"
+
+Quellen:    HIER# "Geben Sie hier die Quellen ihrer Daten und Dateien ein"
+
+Zeitjournal:Hier# Einheit in Stunden
+                  Zeit [std]             Aufgabe
+                  2                      Recherche mit StackOverflow bezüglich Lesen und Schreiben von EXCEL-Dateien mit pandas
+                  ...
+
+Produktfunktionen: Und bei Projektabgabe Soll-Ist-Vergleich
+            Hier: Z.B. 1. Soll: Einlesen der Zeit und Temperatur aus einem beliebigen Arbeitsblatt einer frei wählbaren EXCEL-Datei
+                          Ist:  Erfüllungsgrad (60%) Einlesen der Zeit und Temperatur aus dem ersten Arbeitsblatt einer vorgegebenen EXCEL-Datei (
+                  ...
+                       7. Soll: Speichern der gefilterten Zeit und Temperatur in eine frei wählbare EXCEL-Datei
+                          Ist: Erfüllungsgrad (80%) Speichern der gefilterten Zeit und Temperatur in eine vorgegebenen EXCEL-Datei
