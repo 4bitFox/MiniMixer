@@ -17,7 +17,9 @@ Zeitjournal:Hier# Einheit in Stunden
 Produktfunktionen: Und bei Projektabgabe Soll-Ist-Vergleich
             1.    Soll: Der Raspberry Pi pico soll die Werte der verbauten Schieber, 4-Positions-Schalter und Taster auslesen.
                   Ist:  
-            2.    Soll: 
+            2.    Soll: Der Raspberry Pi soll die Messwerte via USB an den PC senden.
+                  Ist:  
+            3.    Soll: Am PC sollen die Messdaten von der USB-Schnittstelle gelesen werden. Unterstütztes Betriebssystem: Linux, jedoch nur getestet auf Fedora Silverblue 40.
                   Ist:  
             
             Hier: Z.B. 1. Soll: Einlesen der Zeit und Temperatur aus einem beliebigen Arbeitsblatt einer frei wählbaren EXCEL-Datei
