@@ -34,7 +34,6 @@ def get_button_states():
     return state_list
 
 
-
 def get_selector_states():
     """
     Reads the values of selector switches connected to the pins in 'selectors'.
@@ -48,7 +47,6 @@ def get_selector_states():
                 state_list.append([state, len(selector) - 1])
                 break
     return state_list
-
 
 
 def get_pot_values():
