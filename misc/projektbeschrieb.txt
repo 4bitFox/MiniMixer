@@ -2,7 +2,7 @@ Autor:      Cvetko Fabian
 Datum:      2024-11-20
 Version:    alpha1
 Zweck:      Auslesen von Schiebern, 4-Positions-Schaltern und Tastern mit Hilfe eines Raspberry Pi Pico. Senden dieser Messdaten an einen Linux PC via USB.
-Dateien:    ../linux/main.py
+Dateien:    ../linux/main.py  # Siehe Produktfunktion Nr. 7
             ../linux/MiniMixer/__init__.py
             ../linux/MiniMixer/init.py
             ../pico/main.py
