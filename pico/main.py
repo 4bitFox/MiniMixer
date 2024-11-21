@@ -17,6 +17,12 @@ dev_identifier = "3273e2cefa50a16eafefca053ba87625"
 
 
 
+def log2linear(base, value): # TODO!
+    pass
+    
+
+
+
 def get_button_states():
     """
     Reads the values of selector switches connected to the pins in 'selectors'.
@@ -72,9 +78,14 @@ def get_pot_values():
 
 
 
-while True: # main loop
-    button_states = get_button_states()
-    selector_states = get_selector_states()
-    pot_values = get_pot_values()
+def main_loop():
+    while True:
+        button_states = get_button_states()
+        selector_states = get_selector_states()
+        pot_values = get_pot_values()
     
-    sys.stdout.write("Device: " + dev_identifier + ";    Buttons: " + str(button_states) + ";    Selectors: " + str(selector_states) + ";    Pots: " + str(pot_values) + ";\r") # Output to serial console. ';' is the delimiter
+        sys.stdout.write("Device: " + dev_identifier + ";    Buttons: " + str(button_states) + ";    Selectors: " + str(selector_states) + ";    Pots: " + str(pot_values) + ";\r") # Output to serial console. ';' is the delimiter
+      
+
+if __name__ == "__main__":
+    main_loop()
