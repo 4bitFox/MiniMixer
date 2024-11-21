@@ -20,7 +20,7 @@ Produktfunktionen: Und bei Projektabgabe Soll-Ist-Vergleich
                   Ist:     
             6.    Soll:    Das Python-Modul¹ (siehe Punkt 4. & 5. ) reagiert bei verlust der Verbundung zum Raspberry Pi pico und fängt diesbezügliche Fehler ab.
                   Ist:     
-            7.    Wunsch:  Ein Python-Skript¹ soll mit dem importierten Modul¹ die Lautstärke am PC¹ regeln.
+            7.    Wunsch:  PoC: Ein Python-Skript¹ soll mit dem importierten Modul¹ die Messdaten verwenden. (z.B. die Lautstärke am PC¹ regeln.)
                   Ist:     
 
 
