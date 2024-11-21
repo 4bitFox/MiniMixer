@@ -15,6 +15,11 @@ Zeitjournal:Hier# Einheit in Stunden
                   ...
 
 Produktfunktionen: Und bei Projektabgabe Soll-Ist-Vergleich
+            1.    Soll: Der Raspberry Pi pico soll die Werte der verbauten Schieber, 4-Positions-Schalter und Taster auslesen.
+                  Ist:  
+            2.    Soll: 
+                  Ist:  
+            
             Hier: Z.B. 1. Soll: Einlesen der Zeit und Temperatur aus einem beliebigen Arbeitsblatt einer frei wählbaren EXCEL-Datei
                           Ist:  Erfüllungsgrad (60%) Einlesen der Zeit und Temperatur aus dem ersten Arbeitsblatt einer vorgegebenen EXCEL-Datei (
                   ...
