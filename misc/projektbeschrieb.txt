@@ -7,21 +7,20 @@ Dateien:    ../linux/main.py
             ../linux/MiniMixer/init.py
             ../pico/main.py
 
-Produktfunktionen: Und bei Projektabgabe Soll-Ist-Vergleich
-            1.    Soll:    Der Raspberry Pi pico soll die Werte der verbauten Schieber, 4-Positions-Schalter und Taster auslesen.
-                  Ist:     
-            2.    Soll:    Der Raspberry Pi soll die Messwerte via USB an den PC¹ senden.
-                  Ist:     
-            3.    Soll:    Am PC¹ sollen die Messdaten von der USB-Schnittstelle¹ gelesen werden.
-                  Ist:     
-            4.    Soll:    Die übermittelten Messdaten (siehe Punkt 3. ) sollten durch ein importierbares Python-Modul¹ in ein Python Programm¹ eingebunden werden können.
-                  Ist:     
-            5.    Soll:    Das Python-Modul¹ (siehe Punkt 4. ) fängt bei verbinden des Raspberry Pi picos automatisch/selbstständig mit auslesen der Messwerte an.
-                  Ist:     
-            6.    Soll:    Das Python-Modul¹ (siehe Punkt 4. & 5. ) reagiert bei verlust der Verbundung zum Raspberry Pi pico und fängt diesbezügliche Fehler ab.
-                  Ist:     
-            7.    Wunsch:  PoC: Ein Python-Skript¹ soll mit dem importierten Modul¹ die Messdaten verwenden. (z.B. die Lautstärke am PC¹ regeln.)
-                  Ist:     
-
+Produktfunktionen:
+      1.    Soll:    Der Raspberry Pi pico soll die Werte der verbauten Schieber, 4-Positions-Schalter und Taster auslesen.
+            Ist:     
+      2.    Soll:    Der Raspberry Pi soll die Messwerte via USB an den PC¹ senden.
+            Ist:     
+      3.    Soll:    Am PC¹ sollen die Messdaten von der USB-Schnittstelle¹ gelesen werden.
+            Ist:     
+      4.    Soll:    Die übermittelten Messdaten (siehe Punkt 3. ) sollten durch ein importierbares Python-Modul¹ in ein Python Programm¹ eingebunden werden können.
+            Ist:     
+      5.    Soll:    Das Python-Modul¹ (siehe Punkt 4. ) fängt bei verbinden des Raspberry Pi picos automatisch/selbstständig mit auslesen der Messwerte an.
+            Ist:     
+      6.    Soll:    Das Python-Modul¹ (siehe Punkt 4. & 5. ) reagiert bei verlust der Verbundung zum Raspberry Pi pico und fängt diesbezügliche Fehler ab.
+            Ist:     
+      7.    Wunsch:  PoC: Ein Python-Skript¹ soll mit dem importierten Modul¹ die Messdaten verwenden. (z.B. die Lautstärke am PC¹ regeln.)
+            Ist:     
 
 [1] Unterstütztes Betriebssystem: Linux, jedoch wird nur auf Fedora Silverblue 40 getestet.
