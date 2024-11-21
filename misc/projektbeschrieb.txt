@@ -7,23 +7,16 @@ Dateien:    ../linux/main.py
             ../linux/MiniMixer/init.py
             ../pico/main.py
 
-Quellen:    HIER# "Geben Sie hier die Quellen ihrer Daten und Dateien ein"
-
-Zeitjournal:Hier# Einheit in Stunden
-                  Zeit [std]             Aufgabe
-                  2                      Recherche mit StackOverflow bezüglich Lesen und Schreiben von EXCEL-Dateien mit pandas
-                  ...
-
 Produktfunktionen: Und bei Projektabgabe Soll-Ist-Vergleich
             1.    Soll: Der Raspberry Pi pico soll die Werte der verbauten Schieber, 4-Positions-Schalter und Taster auslesen.
                   Ist:  
             2.    Soll: Der Raspberry Pi soll die Messwerte via USB an den PC senden.
                   Ist:  
-            3.    Soll: Am PC sollen die Messdaten von der USB-Schnittstelle gelesen werden. Unterstütztes Betriebssystem: Linux, jedoch nur getestet auf Fedora Silverblue 40.
+            3.    Soll: Am PC sollen die Messdaten von der USB-Schnittstelle gelesen werden. Unterstütztes Betriebssystem: Linux, jedoch wird nur auf Fedora Silverblue 40 getestet.
                   Ist:  
-            
-            Hier: Z.B. 1. Soll: Einlesen der Zeit und Temperatur aus einem beliebigen Arbeitsblatt einer frei wählbaren EXCEL-Datei
-                          Ist:  Erfüllungsgrad (60%) Einlesen der Zeit und Temperatur aus dem ersten Arbeitsblatt einer vorgegebenen EXCEL-Datei (
-                  ...
-                       7. Soll: Speichern der gefilterten Zeit und Temperatur in eine frei wählbare EXCEL-Datei
-                          Ist: Erfüllungsgrad (80%) Speichern der gefilterten Zeit und Temperatur in eine vorgegebenen EXCEL-Datei
+            4.    Soll: 
+                  Ist:  
+            5.    Soll: 
+                  Ist:  
+            6.    Soll: 
+                  Ist:  
