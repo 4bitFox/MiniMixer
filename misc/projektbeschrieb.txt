@@ -8,18 +8,18 @@ Dateien:    ../linux/main.py
             ../pico/main.py
 
 Produktfunktionen: Und bei Projektabgabe Soll-Ist-Vergleich
-            1.    Soll: Der Raspberry Pi pico soll die Werte der verbauten Schieber, 4-Positions-Schalter und Taster auslesen.
-                  Ist:  
-            2.    Soll: Der Raspberry Pi soll die Messwerte via USB an den PC senden.
-                  Ist:  
-            3.    Soll: Am PC¹ sollen die Messdaten von der USB-Schnittstelle gelesen werden.
-                  Ist:  
-            4.    Soll: Die übermittelten Messdaten (siehe Punkt 3. ) sollten durch ein importierbares Python-Modul¹ in ein Python Programm¹ eingebunden werden können.
-                  Ist:  
-            5.    Soll: Ein Python-Skript soll mit dem importierten Modul die Lautstärke am PC¹ 
-                  Ist:  
-            6.    Soll: 
-                  Ist:  
+            1.    Soll:    Der Raspberry Pi pico soll die Werte der verbauten Schieber, 4-Positions-Schalter und Taster auslesen.
+                  Ist:     
+            2.    Soll:    Der Raspberry Pi soll die Messwerte via USB an den PC¹ senden.
+                  Ist:     
+            3.    Soll:    Am PC¹ sollen die Messdaten von der USB-Schnittstelle gelesen werden.
+                  Ist:     
+            4.    Soll:    Die übermittelten Messdaten (siehe Punkt 3. ) sollten durch ein importierbares Python-Modul¹ in ein Python Programm¹ eingebunden werden können.
+                  Ist:     
+            5.    Wunsch:  Ein Python-Skript¹ soll mit dem importierten Modul die Lautstärke am PC¹ regeln.
+                  Ist:     
+            6.    Soll:    
+                  Ist:     
 
 
 [1] Unterstütztes Betriebssystem: Linux, jedoch wird nur auf Fedora Silverblue 40 getestet.
