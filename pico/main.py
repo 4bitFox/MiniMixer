@@ -10,17 +10,12 @@ selectors = [[0, 1, 2, 3], [4, 5, 6, 7]] # selector pins [[<pin_selector1_state1
 selector_selection_state = False # what the state of the selector swich pin has to be for it to be registered as selected. Boolean.
 
 pots = [26, 27, 28] # potentiometer pins [<pin_pot1>, <pin_pot2>, <pin_pot3>, ...]
-pot_range = [13000, 65500] # value range [<0% value>, <100% value>]
+pot_range = [13500, 65500] # value range [<0% value>, <100% value>]
+pot_log = True
 
 dev_identifier = "3273e2cefa50a16eafefca053ba87625"
 
-
-
-
-def log2linear(base, value): # TODO!
-    pass
     
-
 
 
 def get_button_states():
@@ -87,5 +82,5 @@ def main_loop():
         sys.stdout.write("Device: " + dev_identifier + ";    Buttons: " + str(button_states) + ";    Selectors: " + str(selector_states) + ";    Pots: " + str(pot_values) + ";\r") # Output to serial console. ';' is the delimiter
       
 
-if __name__ == "__main__":
+if __name__ == "__main__": # don't start main loop when imported => for debugging purposes
     main_loop()
