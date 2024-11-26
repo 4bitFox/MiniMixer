@@ -6,12 +6,11 @@ import sys
 buttons = [21]
 button_pressed_state = False
 
-selectors = [[0, 1, 2, 3], [4, 5, 6, 7]] # selector pins [[<pin_selector1_state1>, <pin_selector1_state2>, <pin_selector1_state3>, ...], [<pin_selector2_state1>, ...], ...]
+selectors = [[4, 5, 6, 7], [0, 1, 2, 3]] # selector pins [[<pin_selector1_state1>, <pin_selector1_state2>, <pin_selector1_state3>, ...], [<pin_selector2_state1>, ...], ...]
 selector_selection_state = False # what the state of the selector swich pin has to be for it to be registered as selected. Boolean.
 
 pots = [26, 27, 28] # potentiometer pins [<pin_pot1>, <pin_pot2>, <pin_pot3>, ...]
 pot_range = [13500, 65500] # value range [<0% value>, <100% value>]
-pot_log = True
 
 dev_identifier = "3273e2cefa50a16eafefca053ba87625"
 
